@@ -24,6 +24,7 @@ async function run() {
   try {
     //await client.connect();
 
+    // database collection name
     const coffeeCollection = client.db('coffeeDB').collection('coffee');
     const userCollection = client.db('coffeeDB').collection('user');
 
